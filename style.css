@@ -62,7 +62,9 @@ button {
     background-color: seagreen;
 }
 
-
+small{
+    background-color: white;
+}
 
 @media (min-width:551px) and (max-width:900px) {
 
@@ -91,10 +93,15 @@ button {
 }
 
 @media (max-width:550px) {
+    .container{
+        height: 100%;
+    }
+
     .card {
         flex-direction: column;
         width: 80vw;
         font-size: 3vw;
+        margin: 1rem auto;
     }
     .balloon-img{
         width: 100%;
