@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucky Birthday</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <div class="card">
+            <div class="balloon-img"></div>
+            <form class="birthday-form">
+                <h1>Is Your Birthday Lucky?</h1>
+                <p>Enter Your Birthdate and lucky number to find out</p>
+                <label for="birth-date">Select your Birth Date:</label>
+                <input type="date" name="birthdate" id="birth-date" required>
+                <label for="lucky-number">Enter Your Lucky Number:</label>
+                <input type="number" id="lucky-number" min="1" required>
+                <button>Check</button>
+            </form>
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
